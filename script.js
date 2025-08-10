@@ -147,3 +147,7 @@ class ElectricCar extends Car{
 
 const ElectricCar1 = new ElectricCar("tesla","black",90)
 console.log(ElectricCar1.showBattery() )
+
+
+
+//
