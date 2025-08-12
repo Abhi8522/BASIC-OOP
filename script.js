@@ -12,7 +12,6 @@ Person.greet()
 
 
 
-
 // this se ek bank systum banya hai
 // ek object ho or uski sari prop or method ko access krna ho tab this use kre
 const Bank = {
@@ -95,7 +94,6 @@ console.log(pencil1)
 // Code clean aur readable hota hai.
 // Old prototype system ka sara kaam background me ho jata hai.
 // Methods automatically shared hote hain.
-
 // class create krna
 class Car{
         constructor(name,color){
@@ -116,7 +114,6 @@ class Car{
                 h1.style.color = color
                 document.body.append(h1)
         }
-
 }
 // Objects create karna
 const car1 = new Car("Dezire", "black");
@@ -132,8 +129,7 @@ console.log(car1, car2);
 
 
 
-
-// class with extend example / inheritance
+// class with extend example / inheritance ---> extend🧯
 class ElectricCar extends Car{
         constructor(name,color,battery){
                 super(name,color) // this.carName, this.color
@@ -152,3 +148,29 @@ console.log(ElectricCar1.showBattery() )
 
 //
 //
+[
+        {
+                title : 'Javascript Basic',
+                author : 'Abhi',
+                price : 2000,
+                category : 'Programming'
+        },
+        {
+                title : 'React Basic',
+                author : 'Lavish',
+                price : 3000,
+                category : 'Programming'
+        },
+        {
+                title : 'MongoDb Basic',
+                author : 'Vandana',
+                price : 4000,
+                category : 'Programming'
+        },
+        {
+                title : 'Node Basic',
+                author : 'Ashish',
+                price : 5000,
+                category : 'Programming'
+        }
+]
